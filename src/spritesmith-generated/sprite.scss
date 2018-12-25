@@ -1,0 +1,394 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$bank-transfer-name: 'bank_transfer';
+$bank-transfer-x: 47px;
+$bank-transfer-y: 126px;
+$bank-transfer-offset-x: -47px;
+$bank-transfer-offset-y: -126px;
+$bank-transfer-width: 46px;
+$bank-transfer-height: 28px;
+$bank-transfer-total-width: 215px;
+$bank-transfer-total-height: 156px;
+$bank-transfer-image: '/static/sprite.png';
+$bank-transfer: (47px, 126px, -47px, -126px, 46px, 28px, 215px, 156px, '/static/sprite.png', 'bank_transfer', );
+$digicert-secure-name: 'digicert_secure';
+$digicert-secure-x: 174px;
+$digicert-secure-y: 0px;
+$digicert-secure-offset-x: -174px;
+$digicert-secure-offset-y: 0px;
+$digicert-secure-width: 41px;
+$digicert-secure-height: 30px;
+$digicert-secure-total-width: 215px;
+$digicert-secure-total-height: 156px;
+$digicert-secure-image: '/static/sprite.png';
+$digicert-secure: (174px, 0px, -174px, 0px, 41px, 30px, 215px, 156px, '/static/sprite.png', 'digicert_secure', );
+$equity-name: 'equity';
+$equity-x: 48px;
+$equity-y: 64px;
+$equity-offset-x: -48px;
+$equity-offset-y: -64px;
+$equity-width: 61px;
+$equity-height: 25px;
+$equity-total-width: 215px;
+$equity-total-height: 156px;
+$equity-image: '/static/sprite.png';
+$equity: (48px, 64px, -48px, -64px, 61px, 25px, 215px, 156px, '/static/sprite.png', 'equity', );
+$jumvea-shield-name: 'jumvea_shield';
+$jumvea-shield-x: 138px;
+$jumvea-shield-y: 0px;
+$jumvea-shield-offset-x: -138px;
+$jumvea-shield-offset-y: 0px;
+$jumvea-shield-width: 36px;
+$jumvea-shield-height: 41px;
+$jumvea-shield-total-width: 215px;
+$jumvea-shield-total-height: 156px;
+$jumvea-shield-image: '/static/sprite.png';
+$jumvea-shield: (138px, 0px, -138px, 0px, 36px, 41px, 215px, 156px, '/static/sprite.png', 'jumvea_shield', );
+$jumvea-name: 'jumvea';
+$jumvea-x: 0px;
+$jumvea-y: 64px;
+$jumvea-offset-x: 0px;
+$jumvea-offset-y: -64px;
+$jumvea-width: 48px;
+$jumvea-height: 32px;
+$jumvea-total-width: 215px;
+$jumvea-total-height: 156px;
+$jumvea-image: '/static/sprite.png';
+$jumvea: (0px, 64px, 0px, -64px, 48px, 32px, 215px, 156px, '/static/sprite.png', 'jumvea', );
+$logo-footer-name: 'logo_footer';
+$logo-footer-x: 0px;
+$logo-footer-y: 0px;
+$logo-footer-offset-x: 0px;
+$logo-footer-offset-y: 0px;
+$logo-footer-width: 138px;
+$logo-footer-height: 64px;
+$logo-footer-total-width: 215px;
+$logo-footer-total-height: 156px;
+$logo-footer-image: '/static/sprite.png';
+$logo-footer: (0px, 0px, 0px, 0px, 138px, 64px, 215px, 156px, '/static/sprite.png', 'logo_footer', );
+$master-card-name: 'master_card';
+$master-card-x: 50px;
+$master-card-y: 96px;
+$master-card-offset-x: -50px;
+$master-card-offset-y: -96px;
+$master-card-width: 50px;
+$master-card-height: 30px;
+$master-card-total-width: 215px;
+$master-card-total-height: 156px;
+$master-card-image: '/static/sprite.png';
+$master-card: (50px, 96px, -50px, -96px, 50px, 30px, 215px, 156px, '/static/sprite.png', 'master_card', );
+$paypal-name: 'paypal';
+$paypal-x: 0px;
+$paypal-y: 96px;
+$paypal-offset-x: 0px;
+$paypal-offset-y: -96px;
+$paypal-width: 50px;
+$paypal-height: 30px;
+$paypal-total-width: 215px;
+$paypal-total-height: 156px;
+$paypal-image: '/static/sprite.png';
+$paypal: (0px, 96px, 0px, -96px, 50px, 30px, 215px, 156px, '/static/sprite.png', 'paypal', );
+$resona-bank-name: 'resona_bank';
+$resona-bank-x: 138px;
+$resona-bank-y: 41px;
+$resona-bank-offset-x: -138px;
+$resona-bank-offset-y: -41px;
+$resona-bank-width: 31px;
+$resona-bank-height: 40px;
+$resona-bank-total-width: 215px;
+$resona-bank-total-height: 156px;
+$resona-bank-image: '/static/sprite.png';
+$resona-bank: (138px, 41px, -138px, -41px, 31px, 40px, 215px, 156px, '/static/sprite.png', 'resona_bank', );
+$test-name: 'test';
+$test-x: 174px;
+$test-y: 30px;
+$test-offset-x: -174px;
+$test-offset-y: -30px;
+$test-width: 32px;
+$test-height: 32px;
+$test-total-width: 215px;
+$test-total-height: 156px;
+$test-image: '/static/sprite.png';
+$test: (174px, 30px, -174px, -30px, 32px, 32px, 215px, 156px, '/static/sprite.png', 'test', );
+$visa-name: 'visa';
+$visa-x: 0px;
+$visa-y: 126px;
+$visa-offset-x: 0px;
+$visa-offset-y: -126px;
+$visa-width: 47px;
+$visa-height: 30px;
+$visa-total-width: 215px;
+$visa-total-height: 156px;
+$visa-image: '/static/sprite.png';
+$visa: (0px, 126px, 0px, -126px, 47px, 30px, 215px, 156px, '/static/sprite.png', 'visa', );
+$retina-bank-transfer-name: 'retina_bank_transfer';
+$retina-bank-transfer-x: 94px;
+$retina-bank-transfer-y: 256px;
+$retina-bank-transfer-offset-x: -94px;
+$retina-bank-transfer-offset-y: -256px;
+$retina-bank-transfer-width: 92px;
+$retina-bank-transfer-height: 56px;
+$retina-bank-transfer-total-width: 438px;
+$retina-bank-transfer-total-height: 376px;
+$retina-bank-transfer-image: '/static/sprite@2x.png';
+$retina-bank-transfer: (94px, 256px, -94px, -256px, 92px, 56px, 438px, 376px, '/static/sprite@2x.png', 'retina_bank_transfer', );
+$retina-digicert-secure-name: 'retina_digicert_secure';
+$retina-digicert-secure-x: 0px;
+$retina-digicert-secure-y: 316px;
+$retina-digicert-secure-offset-x: 0px;
+$retina-digicert-secure-offset-y: -316px;
+$retina-digicert-secure-width: 82px;
+$retina-digicert-secure-height: 60px;
+$retina-digicert-secure-total-width: 438px;
+$retina-digicert-secure-total-height: 376px;
+$retina-digicert-secure-image: '/static/sprite@2x.png';
+$retina-digicert-secure: (0px, 316px, 0px, -316px, 82px, 60px, 438px, 376px, '/static/sprite@2x.png', 'retina_digicert_secure', );
+$retina-equity-name: 'retina_equity';
+$retina-equity-x: 128px;
+$retina-equity-y: 128px;
+$retina-equity-offset-x: -128px;
+$retina-equity-offset-y: -128px;
+$retina-equity-width: 122px;
+$retina-equity-height: 50px;
+$retina-equity-total-width: 438px;
+$retina-equity-total-height: 376px;
+$retina-equity-image: '/static/sprite@2x.png';
+$retina-equity: (128px, 128px, -128px, -128px, 122px, 50px, 438px, 376px, '/static/sprite@2x.png', 'retina_equity', );
+$retina-jumvea-shield-name: 'retina_jumvea_shield';
+$retina-jumvea-shield-x: 276px;
+$retina-jumvea-shield-y: 120px;
+$retina-jumvea-shield-offset-x: -276px;
+$retina-jumvea-shield-offset-y: -120px;
+$retina-jumvea-shield-width: 71px;
+$retina-jumvea-shield-height: 81px;
+$retina-jumvea-shield-total-width: 438px;
+$retina-jumvea-shield-total-height: 376px;
+$retina-jumvea-shield-image: '/static/sprite@2x.png';
+$retina-jumvea-shield: (276px, 120px, -276px, -120px, 71px, 81px, 438px, 376px, '/static/sprite@2x.png', 'retina_jumvea_shield', );
+$retina-jumvea-name: 'retina_jumvea';
+$retina-jumvea-x: 128px;
+$retina-jumvea-y: 178px;
+$retina-jumvea-offset-x: -128px;
+$retina-jumvea-offset-y: -178px;
+$retina-jumvea-width: 95px;
+$retina-jumvea-height: 64px;
+$retina-jumvea-total-width: 438px;
+$retina-jumvea-total-height: 376px;
+$retina-jumvea-image: '/static/sprite@2x.png';
+$retina-jumvea: (128px, 178px, -128px, -178px, 95px, 64px, 438px, 376px, '/static/sprite@2x.png', 'retina_jumvea', );
+$retina-logo-footer-name: 'retina_logo_footer';
+$retina-logo-footer-x: 0px;
+$retina-logo-footer-y: 0px;
+$retina-logo-footer-offset-x: 0px;
+$retina-logo-footer-offset-y: 0px;
+$retina-logo-footer-width: 276px;
+$retina-logo-footer-height: 128px;
+$retina-logo-footer-total-width: 438px;
+$retina-logo-footer-total-height: 376px;
+$retina-logo-footer-image: '/static/sprite@2x.png';
+$retina-logo-footer: (0px, 0px, 0px, 0px, 276px, 128px, 438px, 376px, '/static/sprite@2x.png', 'retina_logo_footer', );
+$retina-master-card-name: 'retina_master_card';
+$retina-master-card-x: 276px;
+$retina-master-card-y: 0px;
+$retina-master-card-offset-x: -276px;
+$retina-master-card-offset-y: 0px;
+$retina-master-card-width: 100px;
+$retina-master-card-height: 60px;
+$retina-master-card-total-width: 438px;
+$retina-master-card-total-height: 376px;
+$retina-master-card-image: '/static/sprite@2x.png';
+$retina-master-card: (276px, 0px, -276px, 0px, 100px, 60px, 438px, 376px, '/static/sprite@2x.png', 'retina_master_card', );
+$retina-paypal-name: 'retina_paypal';
+$retina-paypal-x: 276px;
+$retina-paypal-y: 60px;
+$retina-paypal-offset-x: -276px;
+$retina-paypal-offset-y: -60px;
+$retina-paypal-width: 100px;
+$retina-paypal-height: 60px;
+$retina-paypal-total-width: 438px;
+$retina-paypal-total-height: 376px;
+$retina-paypal-image: '/static/sprite@2x.png';
+$retina-paypal: (276px, 60px, -276px, -60px, 100px, 60px, 438px, 376px, '/static/sprite@2x.png', 'retina_paypal', );
+$retina-resona-bank-name: 'retina_resona_bank';
+$retina-resona-bank-x: 376px;
+$retina-resona-bank-y: 0px;
+$retina-resona-bank-offset-x: -376px;
+$retina-resona-bank-offset-y: 0px;
+$retina-resona-bank-width: 62px;
+$retina-resona-bank-height: 80px;
+$retina-resona-bank-total-width: 438px;
+$retina-resona-bank-total-height: 376px;
+$retina-resona-bank-image: '/static/sprite@2x.png';
+$retina-resona-bank: (376px, 0px, -376px, 0px, 62px, 80px, 438px, 376px, '/static/sprite@2x.png', 'retina_resona_bank', );
+$retina-test-name: 'retina_test';
+$retina-test-x: 0px;
+$retina-test-y: 128px;
+$retina-test-offset-x: 0px;
+$retina-test-offset-y: -128px;
+$retina-test-width: 128px;
+$retina-test-height: 128px;
+$retina-test-total-width: 438px;
+$retina-test-total-height: 376px;
+$retina-test-image: '/static/sprite@2x.png';
+$retina-test: (0px, 128px, 0px, -128px, 128px, 128px, 438px, 376px, '/static/sprite@2x.png', 'retina_test', );
+$retina-visa-name: 'retina_visa';
+$retina-visa-x: 0px;
+$retina-visa-y: 256px;
+$retina-visa-offset-x: 0px;
+$retina-visa-offset-y: -256px;
+$retina-visa-width: 94px;
+$retina-visa-height: 60px;
+$retina-visa-total-width: 438px;
+$retina-visa-total-height: 376px;
+$retina-visa-image: '/static/sprite@2x.png';
+$retina-visa: (0px, 256px, 0px, -256px, 94px, 60px, 438px, 376px, '/static/sprite@2x.png', 'retina_visa', );
+$spritesheet-width: 215px;
+$spritesheet-height: 156px;
+$spritesheet-image: '/static/sprite.png';
+$spritesheet-sprites: ($bank-transfer, $digicert-secure, $equity, $jumvea-shield, $jumvea, $logo-footer, $master-card, $paypal, $resona-bank, $test, $visa, );
+$spritesheet: (215px, 156px, '/static/sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 438px;
+$retina-spritesheet-height: 376px;
+$retina-spritesheet-image: '/static/sprite@2x.png';
+$retina-spritesheet-sprites: ($retina-bank-transfer, $retina-digicert-secure, $retina-equity, $retina-jumvea-shield, $retina-jumvea, $retina-logo-footer, $retina-master-card, $retina-paypal, $retina-resona-bank, $retina-test, $retina-visa, );
+$retina-spritesheet: (438px, 376px, '/static/sprite@2x.png', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$bank-transfer-group-name: 'bank_transfer';
+$bank-transfer-group: ('bank_transfer', $bank-transfer, $retina-bank-transfer, );
+$digicert-secure-group-name: 'digicert_secure';
+$digicert-secure-group: ('digicert_secure', $digicert-secure, $retina-digicert-secure, );
+$equity-group-name: 'equity';
+$equity-group: ('equity', $equity, $retina-equity, );
+$jumvea-shield-group-name: 'jumvea_shield';
+$jumvea-shield-group: ('jumvea_shield', $jumvea-shield, $retina-jumvea-shield, );
+$jumvea-group-name: 'jumvea';
+$jumvea-group: ('jumvea', $jumvea, $retina-jumvea, );
+$logo-footer-group-name: 'logo_footer';
+$logo-footer-group: ('logo_footer', $logo-footer, $retina-logo-footer, );
+$master-card-group-name: 'master_card';
+$master-card-group: ('master_card', $master-card, $retina-master-card, );
+$paypal-group-name: 'paypal';
+$paypal-group: ('paypal', $paypal, $retina-paypal, );
+$resona-bank-group-name: 'resona_bank';
+$resona-bank-group: ('resona_bank', $resona-bank, $retina-resona-bank, );
+$test-group-name: 'test';
+$test-group: ('test', $test, $retina-test, );
+$visa-group-name: 'visa';
+$visa-group: ('visa', $visa, $retina-visa, );
+$retina-groups: ($bank-transfer-group, $digicert-secure-group, $equity-group, $jumvea-shield-group, $jumvea-group, $logo-footer-group, $master-card-group, $paypal-group, $resona-bank-group, $test-group, $visa-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

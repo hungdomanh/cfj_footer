@@ -1,0 +1,132 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-bank_transfer {
+  background-image: url(/static/sprite.png);
+  background-position: -47px -126px;
+  width: 46px;
+  height: 28px;
+}
+.icon-digicert_secure {
+  background-image: url(/static/sprite.png);
+  background-position: -174px 0px;
+  width: 41px;
+  height: 30px;
+}
+.icon-equity {
+  background-image: url(/static/sprite.png);
+  background-position: -48px -64px;
+  width: 61px;
+  height: 25px;
+}
+.icon-jumvea_shield {
+  background-image: url(/static/sprite.png);
+  background-position: -138px 0px;
+  width: 36px;
+  height: 41px;
+}
+.icon-jumvea {
+  background-image: url(/static/sprite.png);
+  background-position: 0px -64px;
+  width: 48px;
+  height: 32px;
+}
+.icon-logo_footer {
+  background-image: url(/static/sprite.png);
+  background-position: 0px 0px;
+  width: 138px;
+  height: 64px;
+}
+.icon-master_card {
+  background-image: url(/static/sprite.png);
+  background-position: -50px -96px;
+  width: 50px;
+  height: 30px;
+}
+.icon-paypal {
+  background-image: url(/static/sprite.png);
+  background-position: 0px -96px;
+  width: 50px;
+  height: 30px;
+}
+.icon-resona_bank {
+  background-image: url(/static/sprite.png);
+  background-position: -138px -41px;
+  width: 31px;
+  height: 40px;
+}
+.icon-test {
+  background-image: url(/static/sprite.png);
+  background-position: -174px -30px;
+  width: 32px;
+  height: 32px;
+}
+.icon-visa {
+  background-image: url(/static/sprite.png);
+  background-position: 0px -126px;
+  width: 47px;
+  height: 30px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-bank_transfer {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-digicert_secure {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-equity {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-jumvea_shield {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-jumvea {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-logo_footer {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-master_card {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-paypal {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-resona_bank {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-test {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+  .icon-visa {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 215px 156px;
+  }
+}
