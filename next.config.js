@@ -8,30 +8,6 @@ module.exports = withCSS(withSass(withStylus(
     {
     webpack(config, options) {
         config.module.rules.push(
-            // {
-            //     test: /\.scss$/,
-            //     use: [{
-            //         loader: 'style-loader', // inject CSS to page
-            //     }, {
-            //         loader: 'css-loader', // translates CSS into CommonJS modules
-            //     }, {
-            //         loader: 'postcss-loader', // Run post css actions
-            //         options: {
-            //             plugins: function () { // post css plugins, can be exported to postcss.config.js
-            //                 return [
-            //                     require('precss'),
-            //                     require('autoprefixer')
-            //                 ];
-            //             }
-            //         }
-            //     }, {
-            //         loader: 'sass-loader' // compiles Sass to CSS
-            //     }]
-            // },
-            // {
-            //     test: /\.css$/,
-            //     use: ['style-loader', 'css-loader'],
-            // },
             {
                 test: /\.png$/,
                 use: [
@@ -61,7 +37,6 @@ module.exports = withCSS(withSass(withStylus(
                         [path.resolve(__dirname, './src/spritesmith-generated/sprite.scss'), {format: 'scss'}],
                         [path.resolve(__dirname, './src/spritesmith-generated/sprite.css'), {format: 'css'}]
                     ]
-                    // spritesmith-generated
                 },
                 apiOptions: {
                     cssImageRef: '/static/sprite.png',

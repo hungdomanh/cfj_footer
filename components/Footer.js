@@ -10,7 +10,7 @@ export default class Footer extends Component {
             <div id="footer">
                 <FooterSelector/>
                 <FooterContent/>
-                <hr/>
+                <hr className="hr-0-0"/>
                 <FooterBottom/>
             </div>
         )

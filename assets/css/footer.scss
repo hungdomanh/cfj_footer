@@ -1,7 +1,188 @@
+@import "variables";
 @import "./common.scss";
 
+// new var
+$footer-background-color: #071D38;
+$footer-selector-background-color: #f3f3f3;
+
 #footer {
+    width: 1922px;
+    .container {
+        width: 1190px !important;
+    }
+    a {
+        text-decoration: none;
+    }
     #footer-selector {
-        background-color: #f3f3f3;
+        min-height: 350px;
+        background-color: $footer-selector-background-color;
+        color: $gray-1-color;
+        padding-top: 58px;
+        a {
+            color: $text-color;
+        }
+        .footer-selector-type, .footer-selector-make {
+            background-color: $primary-color;
+            height: 30px;
+            width: 100px;
+            border-radius: 3px;
+            transform: rotate(270deg);
+            writing-mode: lr-tb;
+            font-weight: bold;
+            line-height: 28px;
+            font-size: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            color: $white-color;
+            position: absolute;
+            top: 35px;
+            left: -25px;
+            &:after {
+                content: "";
+                position: absolute;
+                top: 90%;
+                left: 42px;
+                width: 0; 
+                height: 0; 
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid $primary-color;
+            }
+        }
+        .footer-selector-title {
+            color: $strong-color;
+            font-size: 18px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 34px;
+        }
+        .footer-selector-option-price, .footer-selector-option-discount {
+            line-height: 32px;
+            color: $text-color;
+            &:hover {
+                font-weight: 700;
+                color: $primary-color;
+                a {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    #footer-content {
+        min-height: 345px;
+        padding-top: 50px;
+        background-color: $footer-background-color;
+        line-height: 27px;
+        color: $gray-1-color;
+        a {
+            text-decoration: none;
+            color: $gray-1-color;
+            &:hover {
+                color: $white-color;
+            }
+        }
+        .footer-content-title {
+            color: $white-color;
+            font-weight: bold;
+            line-height: 34px;
+            font-size: 18px;
+        }
+        .footer-content-info {
+            color: $gray-1-color;
+            .icon-logo_footer {
+                margin-bottom: 17px;
+            }
+            div {
+                line-height: 35px;
+                i {
+                    margin-right: 7px;
+                }
+            }
+        }
+        .footer-content-about-us-others, .footer-content-help-support {
+            .footer-content-about-us-icon-list div {
+                color: #48A2D7;
+            }
+            .footer-content-others-icon-list div {
+                color: #48D792;
+            }
+            .footer-content-help-support-icon-list div {
+                color: #DD5051;
+            }
+            div {
+                i {
+                    width: 15px;
+                    text-align: center;
+                    margin-right: 7px;
+                    margin-left: -20px;
+                }
+            }
+        }
+        .footer-content-our-certificates-payment-method {
+            .footer-content-our-certificates-list, .footer-content-payment-method-list-1, .footer-content-payment-method-list-2 {
+                display: flex;
+                justify-content: start;
+            }
+            .footer-content-our-certificates-list {
+                margin-top: 15px;
+            }
+            .footer-content-payment-method-list-1 {
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+        }
+
+    }
+    .hr-0-0 {
+        margin: 0 !important;
+        border-top: 2px solid $text-color;
+    }
+    #footer-bottom {
+        min-height: 150px;
+        background-color: $footer-background-color;
+        padding-top: 30px;
+        color: $gray-1-color;
+        line-height: 28px;
+        a {
+            color: $gray-1-color;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+        .fa {
+            margin-top: 15px;
+            margin-right: 10px;
+            color: red;
+            
+            padding: 0.05em 0.07em;
+        }
+        .social-icon {
+            position:relative;
+            text-align:center;
+            width:0px;
+            height:0px;
+            padding:16px;
+            border-radius: 16px;
+            float:left;
+            margin:15px 10px 0 0;
+            cursor:pointer;
+            &.fb {
+                background-color: #3b5998;
+            }
+            &.tw {
+                background-color: #38A1F3
+            }
+            &.gp {
+                background-color: #DD4B39;
+            }
+            i {
+                font-size: 1.2em;
+                position: absolute;
+                left:50%;
+                top:50%;
+                transform: translate(-50%, -50%);
+            }
+        }
     }
 }
