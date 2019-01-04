@@ -3,6 +3,7 @@ import Head from "./Head"
 import Footer from './Footer';
 
 import "../src/spritesmith-generated/sprite.css"
+import "../assets/css/about-us.scss"
 import "../assets/css/footer.scss"
 import "../assets/css/main.scss"
 
