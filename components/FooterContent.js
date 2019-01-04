@@ -12,7 +12,7 @@ render() {
                     <div className="col-xs-3 footer-content-info">
                         <Link href="/">
                             <a href="javascript:void(0)">
-                                <i className="icon icon-logo_footer"></i>
+                                <i className="icon icon-footer__logo_footer"></i>
                             </a>
                         </Link>
                         <div>
@@ -58,36 +58,36 @@ render() {
                         <h5 className="footer-content-title">Our Certificates</h5>
                         <div className="footer-content-our-certificates-list">
                             <div className="d-inline-block min-w-32-per text-center">
-                                <i className="icon icon-jumvea_shield"></i>
+                                <i className="icon icon-footer__jumvea_shield"></i>
                             </div>
                             <div className="d-inline-block min-w-32-per text-center">
-                                <i className="icon icon-jumvea"></i>
+                                <i className="icon icon-footer__jumvea"></i>
                             </div>
                             <div className="d-inline-block min-w-32-per text-center">
-                                <i className="icon icon-digicert_secure"></i>
+                                <i className="icon icon-footer__digicert_secure"></i>
                             </div>
                         </div>
                         <h5 className="footer-content-title">Payment method</h5>
                         <div className="footer-content-payment-method-list-1">
                             <div className="d-inline-block min-w-32-per text-center">
-                                <i className="icon icon-visa"></i>
+                                <i className="icon icon-footer__visa"></i>
                             </div>
                             <div className="d-inline-block min-w-32-per text-center">
-                                <i className="icon icon-master_card"></i>
+                                <i className="icon icon-footer__master_card"></i>
                             </div>
                             <div className="d-inline-block min-w-32-per text-center">
-                                <i className="icon icon-paypal"></i>
+                                <i className="icon icon-footer__paypal"></i>
                             </div>
                         </div>
                         <div className="footer-content-payment-method-list-2">
                             <div className="d-inline-block min-w-32-per text-center">
-                                <i className="icon icon-bank_transfer"></i>
+                                <i className="icon icon-footer__bank_transfer"></i>
                             </div>
                             <div className="d-inline-block min-w-32-per text-center">
-                                <i className="icon icon-resona_bank"></i>
+                                <i className="icon icon-footer__resona_bank"></i>
                             </div>
                             <div className="d-inline-block min-w-32-per text-center">
-                                <i className="icon icon-equity"></i>
+                                <i className="icon icon-footer__equity"></i>
                             </div>
                         </div>
                     </div>

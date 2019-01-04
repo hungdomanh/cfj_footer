@@ -21,30 +21,30 @@ export default class FooterSelector extends Component {
                                 <div className="col-xs-11 p-right-25">
                                     <div className="row">
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-sedan" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__sedan" href="#car" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-suv" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__suv" href="#car" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-convertible" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__convertible" href="#car" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-coupe" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__coupe" href="#car" />
                                         </div>
                                     </div>
                                     <div className="row m-top-5">
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-hatchback" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__hatchback" href="#car" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-wagon" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__wagon" href="#car" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-truck_2" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__truck_2" href="#car" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-bus" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__bus" href="#car" />
                                         </div>
                                     </div>
                                 </div>
@@ -58,42 +58,42 @@ export default class FooterSelector extends Component {
                                 <div className="col-xs-11 p-right-25">
                                     <div className="row">
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-toyota" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__toyota" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-nisan" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__nisan" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-honda" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__honda" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-isuzu" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__isuzu" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-bmw" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__bmw" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-volkswagen" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__volkswagen" href="#car" />
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-sabaru" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__sabaru" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-mazda" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__mazda" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-suzuki" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__suzuki" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-ford" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__ford" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-mercedes_benz" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__mercedes_benz" href="#car" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-volvo" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__volvo" href="#car" />
                                         </div>
                                     </div>
                                 </div>
@@ -119,11 +119,11 @@ export default class FooterSelector extends Component {
                         </div>
                         <div className="col-xs-2">
                             <b className="footer-selector-title">CFJ Local Services</b>
-                            <FooterSelectorOptionLocal icon="icon icon-bahamas" text="CFJ Bahamas" href="#" />
-                            <FooterSelectorOptionLocal icon="icon icon-kenya" text="CFJ Kenya" href="#" />
-                            <FooterSelectorOptionLocal icon="icon icon-mozambique" text="CFJ Mozambique" href="#" />
-                            <FooterSelectorOptionLocal icon="icon icon-malawi" text="CFJ Malawi" href="#" />
-                            <FooterSelectorOptionLocal icon="icon icon-tanzania" text="CFJ Tanzania" href="#" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__bahamas" text="CFJ Bahamas" href="#" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__kenya" text="CFJ Kenya" href="#" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__mozambique" text="CFJ Mozambique" href="#" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__malawi" text="CFJ Malawi" href="#" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__tanzania" text="CFJ Tanzania" href="#" />
                             <FooterSelectorOptionLocal icon="fa fa-globe-asia" text="Show all countries" href="#" />
                         </div>
                     </div>

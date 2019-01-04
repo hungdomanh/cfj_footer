@@ -18,8 +18,8 @@ export default class Layout extends Component {
     render() {
         return ( 
             <div>
-                <Head/>
                 <body>
+                <Head/>
                     {/* Header */}
                     
                     {/* Body */}
