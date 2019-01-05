@@ -11,9 +11,7 @@ render() {
                 <div className="row">
                     <div className="col-xs-3 footer-content-info">
                         <a href="/">
-                            <a href="javascript:void(0)">
-                                <i className="icon icon-footer__logo_footer"></i>
-                            </a>
+                            <i className="icon icon-footer__logo_footer"></i>
                         </a>
                         <div>
                             <i className="fa fa-envelope"></i>

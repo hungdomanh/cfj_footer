@@ -7,7 +7,9 @@ export default class FooterSelectorOptionDiscount extends Component {
             <div className="footer-selector-option-discount">
                 <i className="fa fa-tag m-right-5"></i>
                 <Link href={this.props.href}>
-                    {this.props.text}
+                    <a href="#">
+                        {this.props.text}
+                    </a>
                 </Link>
             </div>
         )
