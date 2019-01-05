@@ -6,9 +6,9 @@ export default class FooterSelectorOptionLocal extends Component {
         return (
             <div className="footer-selector-option-discount">
                 <i className={this.props.icon + " m-right-7"}></i>
-                <Link href={this.props.href}>
+                <a href={this.props.href}>
                     {this.props.text}
-                </Link>
+                </a>
             </div>
         )
     }

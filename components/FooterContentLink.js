@@ -22,7 +22,7 @@ export default class FooterContentLink extends Component {
         return (
             <div onMouseEnter={this.showIcon} onMouseLeave={this.hideIcon}>
                 <i className={this.props.icon} style={{visibility: this.state.iconVisibility}}></i>
-                    <Link href={this.props.href}>{this.props.text}</Link>
+                    <a href={this.props.href}>{this.props.text}</a>
             </div>
         )
     }
