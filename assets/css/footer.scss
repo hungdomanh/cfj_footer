@@ -21,8 +21,9 @@ $footer-selector-background-color: #f3f3f3;
         a {
             color: $text-color;
         }
-        .make-type-icon:hover {
-            opacity: 0.6;
+        .make-type-icon .icon:hover {
+            transform: scale(1.2);
+            transition-duration: 0.2s;
         }
         .footer-selector-type, .footer-selector-make {
             background-color: $primary-color;
