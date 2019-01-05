@@ -232,4 +232,36 @@
             }
         }
     }
+    .why-choose-us {
+        color: $text-color;
+        h2 {
+            margin: 0px;
+        }
+        & > .row {
+            padding-bottom: 50px;
+            .left {
+                width: 53%;
+                float: left;
+            }
+            .right {
+                width: 47%;
+                float: left;
+            }
+            .col-content {
+                padding: 0px 15px;
+                .index {
+                    color: $primary-color;
+                    font-size: 75px;
+                    font-weight: bolder;
+                }
+                .title {
+                    color: $blue-color;
+                    font-size: 22px;
+                }
+                p {
+                    line-height: 24px;
+                }
+            }
+        }
+    }
 }
