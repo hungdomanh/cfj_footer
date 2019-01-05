@@ -11,7 +11,7 @@
     padding-bottom: 30px;
     .container {
         width: 1190px !important;
-        padding-left: 0px;
+        padding: 0px;
     }
     #about-us-site-bar {
         background-color: bisque;
@@ -42,6 +42,9 @@
     }
     // right content 
     .bank-list {
+        h2 {
+            margin: 0px;
+        }
         .bank {
             margin-top: 30px;
             .title-logo {
@@ -68,6 +71,45 @@
                         margin-right: 10px;
                     }
                 }
+            }
+        }
+    }
+    .contact-us {
+        color: $text-color;
+        h2 {
+            margin: 0px;
+        }
+        .line-heigth-25 {
+            line-height: 25px;
+        }
+        .contact-type-list {
+            padding: 30px 0px;
+        }
+        .contact-type {
+            display: inline-block;
+            width: 22%;
+            height: 195px;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 3px;
+            padding-top: 30px;
+            .content {
+                margin-top: 25px;
+                line-height: 27px;
+            }
+        }
+        .send-message {
+            h3 {
+                margin: 20px 15px;
+                color: $blue-color;
+            }
+            .btn-send {
+                background-color: $primary-color;
+                margin: 20px 15px 30px 15px;
+                font-weight: bold;
+                color: $white-color;
+                border-radius: 30px;
+                padding: 6px 20px;
             }
         }
     }

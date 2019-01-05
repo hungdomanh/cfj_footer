@@ -74,7 +74,7 @@ export default class AboutUsBankList extends Component {
                                         +81 3 4405 9092
                                     </div>
                                     <div>
-                                        <i className="fa fa-phone-square"></i>
+                                        <i className="fa fa-fax"></i>
                                         +81 3 6735 4633
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@ export default class AboutUsBankList extends Component {
                                         +81 3 4405 9092
                                     </div>
                                     <div>
-                                        <i className="fa fa-phone-square"></i>
+                                        <i className="fa fa-fax"></i>
                                         +81 3 6735 4633
                                     </div>
                                 </div>
@@ -224,7 +224,7 @@ export default class AboutUsBankList extends Component {
                                         +81 3 4405 9092
                                     </div>
                                     <div>
-                                        <i className="fa fa-phone-square"></i>
+                                        <i className="fa fa-fax"></i>
                                         +81 3 6735 4633
                                     </div>
                                 </div>
