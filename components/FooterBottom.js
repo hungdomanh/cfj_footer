@@ -10,41 +10,41 @@ export default class FooterBottom extends Component {
                         <div className="col-md-6">
                             <div>
                                 <div className="d-inline-block">
-                                    <Link href="#">
+                                    <a href="/sitemap">
                                         Sitemap
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="p-left-10 p-right-10 d-inline-block fz-700">|</div>
                                 <div className="d-inline-block">
-                                    <Link href="#">
+                                    <a href="/company/privacy-policy">
                                         Privacy Policy
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="p-left-10 p-right-10 d-inline-block fz-700">|</div>
                                 <div className="d-inline-block">
-                                    <Link href="#">
+                                    <a href="/company/conditions-of-use">
                                         Condition of Use
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                             <div>
-                                2018 @ All Right Reserved. Authorized Used-Car Dealer in Japan.
+                                2019 @ All Right Reserved. Authorized Used-Car Dealer in Japan.
                             </div>
                             <div>
                                 <div className='social-icon fb'>
-                                    <Link href="#">
+                                    <a target="_blank" href="https://www.facebook.com/CarFromJapan.Official">
                                         <i className='fab fa-facebook-f'></i>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className='social-icon tw'>
-                                    <Link href="#">
+                                    <a target="_blank" href="https://twitter.com/CarFromJapan">
                                         <i className='fab fa-twitter'></i>
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className='social-icon gp'>
-                                    <Link href="#">
+                                    <a target="_blank" href="https://plus.google.com/+CarfromjapanLtd">
                                         <i className='fab fa-google-plus-g'></i>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

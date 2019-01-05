@@ -21,30 +21,30 @@ export default class FooterSelector extends Component {
                                 <div className="col-xs-11 p-right-25">
                                     <div className="row">
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__sedan" href="#car" />
+                                            <FooterSelectorTypeMake title="sedan" icon="icon icon-footer__sedan" href="/cheap-used-sedan-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__suv" href="#car" />
+                                            <FooterSelectorTypeMake title="suv" icon="icon icon-footer__suv" href="/cheap-used-suv-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__convertible" href="#car" />
+                                            <FooterSelectorTypeMake title="convertible" icon="icon icon-footer__convertible" href="/cheap-used-convertible-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__coupe" href="#car" />
+                                            <FooterSelectorTypeMake title="coupe" icon="icon icon-footer__coupe" href="/cheap-used-coupe-sale" />
                                         </div>
                                     </div>
                                     <div className="row m-top-5">
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__hatchback" href="#car" />
+                                            <FooterSelectorTypeMake title="hatchback" icon="icon icon-footer__hatchback" href="/cheap-used-hatchback-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__wagon" href="#car" />
+                                            <FooterSelectorTypeMake title="wagon" icon="icon icon-footer__wagon" href="/cheap-used-wagon-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__truck_2" href="#car" />
+                                            <FooterSelectorTypeMake title="truck_2" icon="icon icon-footer__truck_2" href="/cheap-used-truck_2-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__bus" href="#car" />
+                                            <FooterSelectorTypeMake title="bus" icon="icon icon-footer__bus" href="/cheap-used-bus-sale" />
                                         </div>
                                     </div>
                                 </div>
@@ -58,42 +58,42 @@ export default class FooterSelector extends Component {
                                 <div className="col-xs-11 p-right-25">
                                     <div className="row">
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__toyota" href="#car" />
+                                            <FooterSelectorTypeMake icon="icon icon-footer__toyota" href="/cheap-used-toyota-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__nisan" href="#car" />
+                                            <FooterSelectorTypeMake title="nisan" icon="icon icon-footer__nisan" href="/cheap-used-nisan-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__honda" href="#car" />
+                                            <FooterSelectorTypeMake title="honda" icon="icon icon-footer__honda" href="/cheap-used-honda-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__isuzu" href="#car" />
+                                            <FooterSelectorTypeMake title="isuzu" icon="icon icon-footer__isuzu" href="/cheap-used-isuzu-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__bmw" href="#car" />
+                                            <FooterSelectorTypeMake title="bmw" icon="icon icon-footer__bmw" href="/cheap-used-bmw-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__volkswagen" href="#car" />
+                                            <FooterSelectorTypeMake title="volkswagen" icon="icon icon-footer__volkswagen" href="/cheap-used-volkswagen-for-sale" />
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__sabaru" href="#car" />
+                                            <FooterSelectorTypeMake title="sabaru" icon="icon icon-footer__sabaru" href="/cheap-used-sabaru-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__mazda" href="#car" />
+                                            <FooterSelectorTypeMake title="mazda" icon="icon icon-footer__mazda" href="/cheap-used-mazda-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__suzuki" href="#car" />
+                                            <FooterSelectorTypeMake title="suzuki" icon="icon icon-footer__suzuki" href="/cheap-used-suzuki-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__ford" href="#car" />
+                                            <FooterSelectorTypeMake title="ford" icon="icon icon-footer__ford" href="/cheap-used-ford-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__mercedes_benz" href="#car" />
+                                            <FooterSelectorTypeMake title="mercedes_benz" icon="icon icon-footer__mercedes_benz" href="/cheap-used-mercedes_benz-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__volvo" href="#car" />
+                                            <FooterSelectorTypeMake title="volvo" icon="icon icon-footer__volvo" href="/cheap-used-volvo-for-sale" />
                                         </div>
                                     </div>
                                 </div>
@@ -101,30 +101,30 @@ export default class FooterSelector extends Component {
                         </div>
                         <div className="col-xs-2">
                             <b className="footer-selector-title">Car by Prices</b>
-                            <FooterSelectorOptionPrice text="Under US $1000" href="#" />
-                            <FooterSelectorOptionPrice text="US $1,001 - $2,000" href="#" />
-                            <FooterSelectorOptionPrice text="US $2,001 - $3,000" href="#" />
-                            <FooterSelectorOptionPrice text="US $3,001 - $5,000" href="#" />
-                            <FooterSelectorOptionPrice text="US $5,001 - $7,000" href="#" />
-                            <FooterSelectorOptionPrice text="Over US $7,000" href="#" />
+                            <FooterSelectorOptionPrice text="Under US $1000" href="/cheap-used-cars-for-sale-under-usd1000" />
+                            <FooterSelectorOptionPrice text="US $1,000 - $1,500" href="/cheap-used-cars-for-sale-usd1000-1500" />
+                            <FooterSelectorOptionPrice text="US $1,500 - $2,000" href="/cheap-used-cars-for-sale-usd1500-2000" />
+                            <FooterSelectorOptionPrice text="US $2,000 - $2,500" href="/cheap-used-cars-for-sale-usd2000-2500" />
+                            <FooterSelectorOptionPrice text="US $2,500 - $3,000" href="/cheap-used-cars-for-sale-usd2500-3000" />
+                            <FooterSelectorOptionPrice text="Over US $3,000" href="/cheap-used-cars-for-sale-over-usd3000" />
                         </div>
                         <div className="col-xs-2">
                             <b className="footer-selector-title">Car by Discounts</b>
-                            <FooterSelectorOptionDiscount text="70% Off or More" href="#" />
-                            <FooterSelectorOptionDiscount text="60% Off or More" href="#" />
-                            <FooterSelectorOptionDiscount text="50% Off or More" href="#" />
-                            <FooterSelectorOptionDiscount text="40% Off or More" href="#" />
-                            <FooterSelectorOptionDiscount text="30% Off or More" href="#" />
-                            <FooterSelectorOptionDiscount text="1% - 30% Off" href="#" />
+                            <FooterSelectorOptionDiscount text="70% Off or More" href="/cheap-used-cars-for-sale-over-off70" />
+                            <FooterSelectorOptionDiscount text="60% Off or More" href="/cheap-used-cars-for-sale-over-off60" />
+                            <FooterSelectorOptionDiscount text="50% Off or More" href="/cheap-used-cars-for-sale-over-off50" />
+                            <FooterSelectorOptionDiscount text="40% Off or More" href="/cheap-used-cars-for-sale-over-off40" />
+                            <FooterSelectorOptionDiscount text="30% Off or More" href="/cheap-used-cars-for-sale-over-off30" />
+                            <FooterSelectorOptionDiscount text="1% - 30% Off" href="/cheap-used-cars-for-sale-off1-30" />
                         </div>
                         <div className="col-xs-2">
                             <b className="footer-selector-title">CFJ Local Services</b>
-                            <FooterSelectorOptionLocal icon="icon icon-footer__bahamas" text="CFJ Bahamas" href="#" />
-                            <FooterSelectorOptionLocal icon="icon icon-footer__kenya" text="CFJ Kenya" href="#" />
-                            <FooterSelectorOptionLocal icon="icon icon-footer__mozambique" text="CFJ Mozambique" href="#" />
-                            <FooterSelectorOptionLocal icon="icon icon-footer__malawi" text="CFJ Malawi" href="#" />
-                            <FooterSelectorOptionLocal icon="icon icon-footer__tanzania" text="CFJ Tanzania" href="#" />
-                            <FooterSelectorOptionLocal icon="fa fa-globe-asia" text="Show all countries" href="#" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__bahamas" text="CFJ Bahamas" href="/cfj-bahamas" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__kenya" text="CFJ Kenya" href="/cfj-kenya" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__mozambique" text="CFJ Mozambique" href="/cfj-mozambique" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__malawi" text="CFJ Malawi" href="/cfj-malawi" />
+                            <FooterSelectorOptionLocal icon="icon icon-footer__tanzania" text="CFJ Tanzania" href="/cfj-tanzania" />
+                            <FooterSelectorOptionLocal icon="fa fa-globe-asia" text="Show all countries" href="/cheap-used-cars-for-sale" />
                         </div>
                     </div>
                 </div>
