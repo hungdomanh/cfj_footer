@@ -34,93 +34,99 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 200px;
   height: 60px;
 }
+.icon-about-us-our-story__signature {
+  background-image: url(/static/sprite.png);
+  background-position: 0px -180px;
+  width: 157px;
+  height: 42px;
+}
 .icon-footer__bahamas {
   background-image: url(/static/sprite.png);
-  background-position: -315px -64px;
+  background-position: -408px -210px;
   width: 22px;
   height: 15px;
 }
 .icon-footer__bank_transfer {
   background-image: url(/static/sprite.png);
-  background-position: -335px -315px;
+  background-position: 0px -357px;
   width: 46px;
   height: 28px;
 }
 .icon-footer__bmw {
   background-image: url(/static/sprite.png);
-  background-position: -338px 0px;
+  background-position: -338px -225px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__bus {
   background-image: url(/static/sprite.png);
-  background-position: 0px -180px;
+  background-position: 0px -222px;
   width: 115px;
   height: 45px;
 }
 .icon-footer__convertible {
   background-image: url(/static/sprite.png);
-  background-position: -115px -180px;
+  background-position: -115px -222px;
   width: 115px;
   height: 45px;
 }
 .icon-footer__coupe {
   background-image: url(/static/sprite.png);
-  background-position: 0px -225px;
+  background-position: 0px -267px;
   width: 115px;
   height: 45px;
 }
 .icon-footer__digicert_secure {
   background-image: url(/static/sprite.png);
-  background-position: 0px -360px;
+  background-position: -408px -180px;
   width: 41px;
   height: 30px;
 }
 .icon-footer__equity {
   background-image: url(/static/sprite.png);
-  background-position: -200px -154px;
+  background-position: -386px -270px;
   width: 61px;
   height: 25px;
 }
 .icon-footer__ford {
   background-image: url(/static/sprite.png);
-  background-position: -230px -225px;
+  background-position: -338px -135px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__hatchback {
   background-image: url(/static/sprite.png);
-  background-position: -115px -270px;
+  background-position: -338px -45px;
   width: 115px;
   height: 45px;
 }
 .icon-footer__honda {
   background-image: url(/static/sprite.png);
-  background-position: -338px -90px;
+  background-position: -230px -267px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__isuzu {
   background-image: url(/static/sprite.png);
-  background-position: -338px -180px;
+  background-position: -70px -312px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__jumvea_shield {
   background-image: url(/static/sprite.png);
-  background-position: -300px -180px;
+  background-position: -408px -90px;
   width: 36px;
   height: 41px;
 }
 .icon-footer__jumvea {
   background-image: url(/static/sprite.png);
-  background-position: -140px -315px;
+  background-position: -338px -270px;
   width: 48px;
   height: 32px;
 }
 .icon-footer__kenya {
   background-image: url(/static/sprite.png);
-  background-position: -315px -94px;
+  background-position: -315px -64px;
   width: 22px;
   height: 15px;
 }
@@ -132,55 +138,55 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-footer__malawi {
   background-image: url(/static/sprite.png);
-  background-position: -315px -124px;
+  background-position: -315px -94px;
   width: 22px;
   height: 15px;
 }
 .icon-footer__master_card {
   background-image: url(/static/sprite.png);
-  background-position: -188px -315px;
+  background-position: -157px -180px;
   width: 50px;
   height: 30px;
 }
 .icon-footer__mazda {
   background-image: url(/static/sprite.png);
-  background-position: -230px -180px;
+  background-position: -338px -90px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__mercedes_benz {
   background-image: url(/static/sprite.png);
-  background-position: -338px -225px;
+  background-position: -140px -312px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__mozambique {
   background-image: url(/static/sprite.png);
-  background-position: -315px -109px;
+  background-position: -315px -79px;
   width: 22px;
   height: 15px;
 }
 .icon-footer__nisan {
   background-image: url(/static/sprite.png);
-  background-position: 0px -315px;
+  background-position: -280px -312px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__paypal {
   background-image: url(/static/sprite.png);
-  background-position: -238px -315px;
+  background-position: -207px -180px;
   width: 50px;
   height: 30px;
 }
 .icon-footer__resona_bank {
   background-image: url(/static/sprite.png);
-  background-position: -300px -225px;
+  background-position: -408px -135px;
   width: 31px;
   height: 40px;
 }
 .icon-footer__sabaru {
   background-image: url(/static/sprite.png);
-  background-position: -70px -315px;
+  background-position: -350px -312px;
   width: 70px;
   height: 45px;
 }
@@ -198,55 +204,55 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-footer__suzuki {
   background-image: url(/static/sprite.png);
-  background-position: -338px -270px;
+  background-position: -210px -312px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__tanzania {
   background-image: url(/static/sprite.png);
-  background-position: -315px -79px;
+  background-position: -430px -210px;
   width: 22px;
   height: 15px;
 }
 .icon-footer__test {
   background-image: url(/static/sprite.png);
-  background-position: -300px -270px;
+  background-position: -408px -225px;
   width: 32px;
   height: 32px;
 }
 .icon-footer__toyota {
   background-image: url(/static/sprite.png);
-  background-position: -338px -135px;
+  background-position: 0px -312px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__truck_2 {
   background-image: url(/static/sprite.png);
-  background-position: 0px -270px;
+  background-position: -338px 0px;
   width: 115px;
   height: 45px;
 }
 .icon-footer__visa {
   background-image: url(/static/sprite.png);
-  background-position: -288px -315px;
+  background-position: -257px -180px;
   width: 47px;
   height: 30px;
 }
 .icon-footer__volkswagen {
   background-image: url(/static/sprite.png);
-  background-position: -338px -45px;
+  background-position: -230px -222px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__volvo {
   background-image: url(/static/sprite.png);
-  background-position: -230px -270px;
+  background-position: -338px -180px;
   width: 70px;
   height: 45px;
 }
 .icon-footer__wagon {
   background-image: url(/static/sprite.png);
-  background-position: -115px -225px;
+  background-position: -115px -267px;
   width: 115px;
   height: 45px;
 }
@@ -255,158 +261,162 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
        (min-resolution: 192dpi) {
   .icon-about-us-bank__MIZUHO {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-about-us-bank__RESONA {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-about-us-bank__SUMITOMO_MITSUI {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
+  }
+  .icon-about-us-our-story__signature {
+    background-image: url(/static/sprite@2x.png);
+    background-size: 453px 385px;
   }
   .icon-footer__bahamas {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__bank_transfer {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__bmw {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__bus {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__convertible {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__coupe {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__digicert_secure {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__equity {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__ford {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__hatchback {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__honda {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__isuzu {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__jumvea_shield {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__jumvea {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__kenya {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__logo_footer {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__malawi {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__master_card {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__mazda {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__mercedes_benz {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__mozambique {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__nisan {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__paypal {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__resona_bank {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__sabaru {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__sedan {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__suv {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__suzuki {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__tanzania {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__test {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__toyota {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__truck_2 {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__visa {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__volkswagen {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__volvo {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
   .icon-footer__wagon {
     background-image: url(/static/sprite@2x.png);
-    background-size: 408px 390px;
+    background-size: 453px 385px;
   }
 }
