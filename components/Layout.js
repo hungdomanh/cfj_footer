@@ -19,7 +19,7 @@ export default class Layout extends Component {
     render() {
         return ( 
             <div>
-                <body>
+                <body style={{width: '1922px'}}>
                 <Head/>
                     {/* Header */}
                     
