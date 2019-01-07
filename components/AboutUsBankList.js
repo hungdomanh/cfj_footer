@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import Bank from './AboutUsBank'
-
 export default class AboutUsBankList extends Component {
     render() {
         return (

@@ -8,6 +8,9 @@
     .container {
         padding: 0px;
     }
+    hr {
+        border-color: $gray-1-color;
+    }
     #about-us-site-bar {
         background-color: bisque;
         width: 100%;
@@ -261,6 +264,88 @@
                 p {
                     line-height: 24px;
                 }
+            }
+        }
+    }
+    .corporate {
+        color: $text-color;
+        h2 {
+            margin: 0px;
+        }
+        .text-title {
+            color: $blue-color;
+            font-size: 21px;
+            padding-bottom: 10px;
+        }
+        .list-group {
+            margin-bottom: 40px;
+            .list-group-item {
+                border-radius: 0px;
+                padding: 1px;
+                display: table;
+                width: 100%;
+                .block-left {
+                    display: table-cell;
+                    width: 25%;
+                    padding: 12px;;
+                    background-color: $gray-color;
+                    vertical-align: top;
+                }
+                .block-right {
+                    display: table-cell;
+                    width: 75%;
+                    padding: 10px 15px;
+                    color: $text-color;
+                    line-height: 25px;
+                    .office {
+                        .office-name {
+                            font-weight: bold;
+                            color: $strong-color;
+                            .hr {
+                                width: 50px;
+                                height: 2px;
+                                background-color: $primary-color;
+                                margin-bottom: 10px;
+                            }
+                        }
+                        .row-info {
+                            margin-bottom: 5px;
+                            .fa {
+                                width: 15px;
+                                padding-top:5px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    .icon-bank {
+                        margin: 10px 0px;
+                    }
+                }
+            }
+        }
+        .mission {
+            margin: 40p 0px;
+            p {
+                line-height: 25px;
+            }
+            .cover {
+                width: 100%;
+                height: 180px;
+            }
+        }
+        .coutries {
+            padding: 35px;
+            position: relative;
+            background-color: $gray-color;
+            hr {
+                color: red;
+            }
+            line-height: 25px;
+            .bg-overlay {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                opacity: 0.5;
             }
         }
     }
