@@ -9,7 +9,7 @@ export default class AboutUsLayout extends Component {
                 <div id="about-us">
                     <div className="container">
                         <div className="col-xs-3">
-                            <AboutUsSideBar />
+                            <AboutUsSideBar  />
                         </div>
                         <div className="col-xs-9">
                             {this.props.children}

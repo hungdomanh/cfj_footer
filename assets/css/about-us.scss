@@ -22,18 +22,25 @@
             }
             .list-group-item {
                 height: 45px;
-                &.active {
-                    background-color: $primary-color;
-                    border: $primary-color;
-                }
                 .badge {
                     width: 14px;
                     height: 14px;
                     color: $primary-color;
                     padding-left: 4px;
-                    padding-top: 2px;
+                    padding-top: 1.5px;
                     margin-top: 5px;
+                    visibility: hidden;
                 }
+                &.active, &:hover {
+                    background-color: $primary-color;
+                    border: $primary-color;
+                    color: $white-color;
+                    .badge {
+                        visibility: visible;
+                        background-color: $white-color;
+                    }
+                }
+                
 
             }
         }
@@ -314,7 +321,7 @@
             }
         }
         .mission {
-            margin: 40p 0px;
+            margin: 40px 0px;
             p {
                 line-height: 25px;
             }
@@ -340,7 +347,6 @@
         }
     }
     .office-calendar {
-
         .list-office {
             .office {
                 line-height: 25px;
@@ -389,6 +395,86 @@
                         padding: 10px 15px;
                     }
                 }
+            }
+        }
+    }
+    .testimonial-list {
+        line-height: 25px;
+        .testimonial {
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid $border-color;
+            border-radius: 2px;
+            box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            .info {
+                .buyer {
+                    .fa-check-circle {
+                        color: #4cb275;
+                    }
+                }
+                .testimonial-satisfield {
+                    display: inline-block;
+                    vertical-align: top;
+                    padding: 6px 12px;
+                    color: #fff;
+                    font-weight: 700;
+                    background: #4cb275;
+                    border-radius: 2px;
+                }
+                .testimonial-stars {
+                    .fa {
+                        margin: 7px 2px;
+                    }
+                    .fa-star-grey {
+                        color: $gray-color;
+                    }
+                    .fa-star-yellow {
+                        color: $yellow-star;
+                    }
+                }
+            }
+            .client-photos {
+                margin: 10px 0px;
+                .carousel-control {
+                    &.left {
+                        background-image: linear-gradient(to right,rgba(0,0,0,.2) 0,rgba(0,0,0,.000001) 50%);
+                    }&.right {
+                        background-image: linear-gradient(to left,rgba(0,0,0,.2) 0,rgba(0,0,0,.000001) 50%);
+                    }
+                    .glyphicon-chevron-left {
+                        font-size: 20px;
+                        left: 12%;
+                    }
+                    .glyphicon-chevron-right {
+                        font-size: 20px;
+                        right: 12%;
+                    }
+                }
+                .carousel-indicators {
+                    display: none;
+                }
+            }
+            .purchased-car {
+                .purchased-car-image {
+                    padding-top: 10px;
+                    img {
+
+                        display: block;
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+                .purchased-car-detail {
+                    padding-top: 20px;
+                }
+            }
+        }
+        .btn-show-more {
+            background-color: $primary-color;
+            color: $white-color;
+            border-radius: 25px;
+            &:focus {
+                outline: none;
             }
         }
     }
