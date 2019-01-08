@@ -30,8 +30,8 @@ export default class AboutusOfficeCalendar extends Component {
                                 </div>
                             </div>
                             <div className="map">
-                                <div class="mapouter">
-                                    <div class="gmap_canvas">
+                                <div className="mapouter">
+                                    <div className="gmap_canvas">
                                         <iframe width = "100%"
                                             height = "239"
                                             id = "gmap_canvas"
@@ -68,8 +68,8 @@ export default class AboutusOfficeCalendar extends Component {
                                 </div>
                             </div>
                             <div className="map">
-                                <div class="mapouter">
-                                    <div class="gmap_canvas">
+                                <div className="mapouter">
+                                    <div className="gmap_canvas">
                                         <iframe width = "100%"
                                             height = "239"
                                             id = "gmap_canvas"
@@ -107,8 +107,8 @@ export default class AboutusOfficeCalendar extends Component {
                                 </div>
                             </div>
                             <div className="map">
-                                <div class="mapouter">
-                                    <div class="gmap_canvas">
+                                <div className="mapouter">
+                                    <div className="gmap_canvas">
                                         <iframe width = "100%"
                                             height = "239"
                                             id = "gmap_canvas"
@@ -130,7 +130,7 @@ export default class AboutusOfficeCalendar extends Component {
                         Work Calendar of Japan Office
                     </div>
                     <div>2019 Scheduled Off Days, Calendar</div>
-                    <table class="table table-bordered">
+                    <table className="table table-bordered">
                         <thead>
                             <tr>
                                 <th><div>#</div></th>
@@ -296,7 +296,7 @@ export default class AboutusOfficeCalendar extends Component {
                                 <td>正月</td>
                             </tr>
                             <tr>
-                                <td colSpan="5" class="red-color">
+                                <td colSpan="5" className="red-color">
                                     "** Other than the days mentioned above, Our Japan Office will be closed on Saturdays & Sundays."
                                 </td>
                             </tr>
