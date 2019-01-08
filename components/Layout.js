@@ -1,34 +1,32 @@
 import React, { Component } from 'react'
-import Head from "./Head"
-import Footer from './Footer';
+import Head from './Head'
+import Footer from './Footer'
 
-import "../src/spritesmith-generated/sprite.css"
-import "../assets/css/about-us.scss"
-import "../assets/css/footer.scss"
-import "../assets/css/main.scss"
+import '../src/spritesmith-generated/sprite.css'
+import '../assets/css/about-us.scss'
+import '../assets/css/footer.scss'
+import '../assets/css/main.scss'
 
 export default class Layout extends Component {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props)
 
-        this.state = {
+    this.state = {}
+  }
 
-        }
-    }
+  render() {
+    return (
+      <div>
+        <body style={{ width: '1922px' }}>
+          <Head />
+          {/* Header */}
 
-    render() {
-        return ( 
-            <div>
-                <body style={{width: '1922px'}}>
-                <Head/>
-                    {/* Header */}
-                    
-                    {/* Body */}
-                    {this.props.children}
+          {/* Body */}
+          {this.props.children}
 
-                    <Footer/>
-                </body>
-            </div>
-        )
-    }
+          <Footer />
+        </body>
+      </div>
+    )
+  }
 }

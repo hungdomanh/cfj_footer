@@ -5,20 +5,19 @@ import AboutUsLayout from '../../components/AboutUsLayout'
 import AboutUsCorporate from '../../components/AboutUsCorporate'
 
 class Index extends React.Component {
-    static getInitialProps ({ reduxStore, req }) {
-        return {}
-    }
-    
-    render() {
-        return (
-            <Layout>
-                <AboutUsLayout>
-                    <AboutUsCorporate/>
-                </AboutUsLayout>
-            </Layout>
-        )
-    }
-}
+  static getInitialProps({ reduxStore, req }) {
+    return {}
+  }
 
+  render() {
+    return (
+      <Layout>
+        <AboutUsLayout>
+          <AboutUsCorporate />
+        </AboutUsLayout>
+      </Layout>
+    )
+  }
+}
 
 export default Index
