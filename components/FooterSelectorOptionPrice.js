@@ -7,7 +7,9 @@ export default class FooterSelectorOptionPrice extends Component {
             <div className="footer-selector-option-price">
                 <i className="fa fa-award m-right-5"></i>
                 <Link href={this.props.href}>
-                    {this.props.text}
+                    <a href="#">
+                        {this.props.text}
+                    </a>
                 </Link>
             </div>
         )

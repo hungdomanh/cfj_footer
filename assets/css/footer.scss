@@ -6,9 +6,10 @@ $footer-background-color: #071D38;
 $footer-selector-background-color: #f3f3f3;
 
 #footer {
-    width: 1922px;
+    width: 100%;
     .container {
-        width: 1190px !important;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     a {
         text-decoration: none;
@@ -186,6 +187,9 @@ $footer-selector-background-color: #f3f3f3;
                 left:50%;
                 top:50%;
                 transform: translate(-50%, -50%);
+                &:hover {
+                    color: $white-color;
+                }
             }
         }
     }

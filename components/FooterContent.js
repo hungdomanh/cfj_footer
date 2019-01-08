@@ -10,22 +10,20 @@ render() {
             <div className="container">
                 <div className="row">
                     <div className="col-xs-3 footer-content-info">
-                        <Link href="/">
-                            <a href="javascript:void(0)">
-                                <i className="icon icon-footer__logo_footer"></i>
-                            </a>
-                        </Link>
+                        <a href="/">
+                            <i className="icon icon-footer__logo_footer"></i>
+                        </a>
                         <div>
                             <i className="fa fa-envelope"></i>
-                            <Link href="mailto:ask@carfromjapan.com">ask@carfromjapan.com</Link>
+                            <a href="mailto:ask@carfromjapan.com">ask@carfromjapan.com</a>
                         </div>
                         <div>
                             <i className="fa fa-phone"></i>
-                            <Link href="tel:+81345406692">+81 3 4540 6692</Link>
+                            <a href="tel:+81345406692">+81 3 4540 6692</a>
                         </div>
                         <div>
                             <i className="fa fa-map-marker-alt"></i>
-                            <Link href="javacript:void(0)">〒153-0062 Mita 2-7-4, Meguro Ku, Tokyo, Japan</Link>
+                            <a href="javacript:void(0)">〒153-0062 Mita 2-7-4, Meguro Ku, Tokyo, Japan</a>
                         </div>
                     </div>
                     <div className="col-xs-2 footer-content-about-us-others">

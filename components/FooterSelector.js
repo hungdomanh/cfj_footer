@@ -21,30 +21,30 @@ export default class FooterSelector extends Component {
                                 <div className="col-xs-11 p-right-25">
                                     <div className="row">
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake title="sedan" icon="icon icon-footer__sedan" href="/cheap-used-sedan-sale" />
+                                            <FooterSelectorTypeMake title="sedan" icon="icon icon-footer__sedan" href="/cheap-used-sedan-for-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake title="suv" icon="icon icon-footer__suv" href="/cheap-used-suv-sale" />
+                                            <FooterSelectorTypeMake title="suv" icon="icon icon-footer__suv" href="/cheap-used-suv-for-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake title="convertible" icon="icon icon-footer__convertible" href="/cheap-used-convertible-sale" />
+                                            <FooterSelectorTypeMake title="convertible" icon="icon icon-footer__convertible" href="/cheap-used-convertible-for-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake title="coupe" icon="icon icon-footer__coupe" href="/cheap-used-coupe-sale" />
+                                            <FooterSelectorTypeMake title="coupe" icon="icon icon-footer__coupe" href="/cheap-used-coupe-for-sale" />
                                         </div>
                                     </div>
                                     <div className="row m-top-5">
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake title="hatchback" icon="icon icon-footer__hatchback" href="/cheap-used-hatchback-sale" />
+                                            <FooterSelectorTypeMake title="hatchback" icon="icon icon-footer__hatchback" href="/cheap-used-hatchback-for-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake title="wagon" icon="icon icon-footer__wagon" href="/cheap-used-wagon-sale" />
+                                            <FooterSelectorTypeMake title="wagon" icon="icon icon-footer__wagon" href="/cheap-used-wagon-for-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake title="truck_2" icon="icon icon-footer__truck_2" href="/cheap-used-truck_2-sale" />
+                                            <FooterSelectorTypeMake title="truck" icon="icon icon-footer__truck_2" href="/cheap-used-truck-for-sale" />
                                         </div>
                                         <div className="col-xs-3">
-                                            <FooterSelectorTypeMake title="bus" icon="icon icon-footer__bus" href="/cheap-used-bus-sale" />
+                                            <FooterSelectorTypeMake title="bus" icon="icon icon-footer__bus" href="/cheap-used-bus-for-sale" />
                                         </div>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@ export default class FooterSelector extends Component {
                                 <div className="col-xs-11 p-right-25">
                                     <div className="row">
                                         <div className="col-xs-2">
-                                            <FooterSelectorTypeMake icon="icon icon-footer__toyota" href="/cheap-used-toyota-for-sale" />
+                                            <FooterSelectorTypeMake title="toyota" icon="icon icon-footer__toyota" href="/cheap-used-toyota-for-sale" />
                                         </div>
                                         <div className="col-xs-2">
                                             <FooterSelectorTypeMake title="nisan" icon="icon icon-footer__nisan" href="/cheap-used-nisan-for-sale" />
