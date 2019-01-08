@@ -18,9 +18,9 @@ export default class AboutUsContactUs extends Component {
                 <div className="contact-type-list row-flex space-between">
                     <div className="contact-type col-flex center text-center">
                         <div className="icon">
-                            <i className="fa fa-envelope fa-3x"></i>
+                            <i className="fa fa-envelope-open fa-3x"></i>
                         </div>
-                        <div className="content">
+                        <div className="content email">
                             <b>Email: </b> <br/>
                             <a href="mailto:ask@carfromjapan.com">ask@carfromjapan.com</a>
                         </div>
@@ -29,7 +29,7 @@ export default class AboutUsContactUs extends Component {
                         <div className="icon">
                             <i className="fa fa-phone fa-3x"></i>
                         </div>
-                        <div className="content">
+                        <div className="content phone">
                             <b>Phone: </b> <br/>
                             <a href="tel:+81345406692">(EN) +81 3 4540 6692</a> <br/>
                             <a href="tel:+81345406692">(JP) +81 3 4540 6692</a>
@@ -39,17 +39,17 @@ export default class AboutUsContactUs extends Component {
                         <div className="icon">
                             <i className="fab fa-whatsapp fa-3x"></i>
                         </div>
-                        <div className="content">
+                        <div className="content whatsapp">
                             <b>Whatsapp: </b> <br/>
                             <a href="tel:+819084025615">+8190-8402-5615</a> <br/>
-                            <a href="tel:+819084025615">(Mr. Ken)</a>
+                            <span>(Mr. Ken)</span>
                         </div>
                     </div>
                     <div className="contact-type col-flex center text-center">
                         <div className="icon">
                             <i className="fa fa-fax fa-3x"></i>
                         </div>
-                        <div className="content">
+                        <div className="content fax">
                             <b>Fax: </b> <br/>
                             <a href="tel:+81367354633 ">+81 3 6735 4633 </a>
                         </div>

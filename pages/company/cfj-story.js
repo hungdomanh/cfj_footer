@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Layout from '../components/Layout'
-import AboutUsLayout from '../components/AboutUsLayout'
-import AboutUsOurStory from '../components/AboutUsOurStory'
+import Layout from '../../components/Layout'
+import AboutUsLayout from '../../components/AboutUsLayout'
+import AboutUsOurStory from '../../components/AboutUsOurStory'
 
 class Index extends React.Component {
     static getInitialProps ({ reduxStore, req }) {

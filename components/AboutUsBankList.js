@@ -9,7 +9,7 @@ export default class AboutUsBankList extends Component {
                 <div className="bank">
                     <div className="title-logo row-flex space-between">
                         <h3 className="title">1. RESONA Bank</h3>
-                        <i className="icon icon-logo_footer"></i>
+                        <i className="icon icon-about-us-bank__RESONA"></i>
                     </div>
                     <div>
                         <ul class="list-group">
@@ -84,7 +84,7 @@ export default class AboutUsBankList extends Component {
                 <div className="bank">
                     <div className="title-logo row-flex space-between">
                         <h3 className="title">2. MIZUHO Bank</h3>
-                        <i className="icon icon-logo_footer"></i>
+                        <i className="icon icon-about-us-bank__MIZUHO"></i>
                     </div>
                     <div>
                         <ul class="list-group">
@@ -159,7 +159,7 @@ export default class AboutUsBankList extends Component {
                 <div className="bank">
                     <div className="title-logo row-flex space-between">
                         <h3 className="title">3. SUMITOMO MITSUI Bank</h3>
-                        <i className="icon icon-logo_footer"></i>
+                        <i className="icon icon-about-us-bank__SUMITOMO_MITSUI"></i>
                     </div>
                     <div>
                         <ul class="list-group">

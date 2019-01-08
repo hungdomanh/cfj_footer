@@ -297,7 +297,7 @@ export default class AboutusOfficeCalendar extends Component {
                             </tr>
                             <tr>
                                 <td colSpan="5" class="red-color">
-                                    "** Other than the days mentioned above, Car From Japan Tokyo Office will be closed on Saturdays & Sundays."
+                                    "** Other than the days mentioned above, Our Japan Office will be closed on Saturdays & Sundays."
                                 </td>
                             </tr>
                         </tbody>

@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import { Carousel } from 'react-bootstrap';
 
 const resuiltStyle = {
-    backgroundImage: 'url("./static/img/about-us-our-story__bg-resuilt.jpg")',
+    backgroundImage: 'url("/static/img/about-us-our-story__bg-resuilt.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'none',
 }
 
 const ourProgressBackgroundStyle = {
-    backgroundImage: 'url("./static/img/about-us-our-story__map-our-progress.png")',
+    backgroundImage: 'url("/static/img/about-us-our-story__map-our-progress.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'none',
@@ -24,13 +24,13 @@ export default class AboutUsOurStory extends Component {
                 <br/>
                 <Carousel>
                     <Carousel.Item>
-                        <img alt="office" src="./static/img/about-us-our-story__carousel-1.png" />
+                        <img alt="office" src="/static/img/about-us-our-story__carousel-1.png" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img alt="happy" src="./static/img/about-us-our-story__carousel-2.png" />
+                        <img alt="happy" src="/static/img/about-us-our-story__carousel-2.png" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img alt="travel" src="./static/img/about-us-our-story__carousel-3.png" />
+                        <img alt="travel" src="/static/img/about-us-our-story__carousel-3.png" />
                     </Carousel.Item>
                 </Carousel>
                 
@@ -61,7 +61,7 @@ export default class AboutUsOurStory extends Component {
 
                 <div className="ceo row">
                     <div className="col-xs-4">
-                        <img src="./static/img/about-us-our-story__avata.png" alt=""/>
+                        <img src="/static/img/about-us-our-story__avata.png" alt=""/>
                     </div>
                     <div className="col-xs-8 ceo-said">
                         <p>“ We focus on connecting all car buyers and sellers in the most innovative, efficient and authentic way. ”</p>

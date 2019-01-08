@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Layout from '../components/Layout'
-import AboutUsLayout from '../components/AboutUsLayout'
-import AboutUsBankList from '../components/AboutUsBankList'
+import Layout from '../../components/Layout'
+import AboutUsLayout from '../../components/AboutUsLayout'
+import AboutUsContactUs from '../../components/AboutUsContactUs'
 
 class Index extends React.Component {
     static getInitialProps ({ reduxStore, req }) {
@@ -13,7 +13,7 @@ class Index extends React.Component {
         return (
             <Layout>
                 <AboutUsLayout>
-                    <AboutUsBankList/>
+                    <AboutUsContactUs/>
                 </AboutUsLayout>
             </Layout>
         )

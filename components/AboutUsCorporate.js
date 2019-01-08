@@ -1,24 +1,24 @@
 import React, { Component } from 'react'
 
 const mission1BackgroundStyle = {
-    backgroundImage: 'url("./static/img/about-us-corporate__why_do_we_do_this.png")',
+    backgroundImage: 'url("/static/img/about-us-corporate__why_do_we_do_this.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
 }
 const mission2BackgroundStyle = {
-    backgroundImage: 'url("./static/img/about-us-corporate__our_mission.png")',
+    backgroundImage: 'url("/static/img/about-us-corporate__our_mission.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
 }
 const mission3BackgroundStyle = {
-    backgroundImage: 'url("./static/img/about-us-corporate__vision.png")',
+    backgroundImage: 'url("/static/img/about-us-corporate__vision.png")',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
 }
 const ContriesBackgroundStyle = {
-    backgroundImage: 'url("./static/img/about-us-corporate__contries.png")',
+    backgroundImage: 'url("/static/img/about-us-corporate__contries.png")',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
 }
@@ -86,7 +86,7 @@ export default class AboutUsCorporate extends Component {
                                 <hr/>
                                 <div class="office">
                                     <div class="office-name">
-                                        Kenya office
+                                        Kenya Office
                                         <div class="hr"></div>
                                     </div>
                                     <div className="row-flex row-info">
@@ -106,7 +106,7 @@ export default class AboutUsCorporate extends Component {
                                 <hr/>
                                 <div class="office">
                                     <div class="office-name">
-                                        Viet Nam 
+                                        Viet Nam Office
                                         <div class="hr"></div>
                                     </div>
                                     <div className="row-flex row-info">

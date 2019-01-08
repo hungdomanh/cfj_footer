@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import Link from 'next/link'
 import { Carousel } from 'react-bootstrap'
 import Rating from 'react-rating'
-import { getImageCDN } from "../assets/js/main"
+import { getImageCDN, getImageFlagCountry } from "../assets/js/main"
 
 
-export default class AboutUsTestimonial extends Component {
+export default class AboutUsVoiceOfClient extends Component {
     render() {
         const testimonial = this.props.testimonial;
         return (
-            <div className="testimonial">
+            <div className="voice-of-client">
                 <div className="info row-flex space-between">
                     <div className="buyer">
                         <div><b className="strong-color">{testimonial.name}</b></div>
@@ -18,7 +18,7 @@ export default class AboutUsTestimonial extends Component {
                             Verified Buyer
                         </div>
                         <div>
-                            <img className="m-right-7" src={"//static.carfromjapan.com/public/system/assets/img/flags/" + String(testimonial.country).toLowerCase() + ".png"} alt={testimonial.country} width="25" />
+                            <img className="m-right-7" src={getImageFlagCountry(String(testimonial.country))} alt={testimonial.country} width="25" />
                             {testimonial.country} 
                         </div>
                     </div>
@@ -38,7 +38,10 @@ export default class AboutUsTestimonial extends Component {
                     </div>
                 </div>
                 <div className="client-photos">
-                    <Carousel>
+                    <Carousel 
+                        controls={testimonial.images.length > 1}
+                        interval={null}
+                        >
                         {
                             testimonial.images.length ? (
                                 testimonial.images.map((image, index) => {

@@ -12,3 +12,8 @@ export const getImageCDN = (image, width = 0, height = 0, protocol = '') => {
   }
   return protocol + '//' + image.cdnUri + '/' + image.filename + `_${width}_${height}`
 }
+
+
+export const getImageFlagCountry = (countryName) => {
+    return "//static.carfromjapan.com/public/system/assets/img/flags/" + String(countryName).trim().toLowerCase().replace(' ', '-') + ".png";
+}
