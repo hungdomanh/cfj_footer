@@ -24,7 +24,7 @@ export default class AboutUsVoiceOfClient extends Component {
                     </div>
                     <div>
                         <div className="testimonial-satisfield">
-                            <i class="fa fa-thumbs-up"></i> {" "}
+                            <i className="fa fa-thumbs-up"></i> {" "}
                             Satisfied
                         </div>
                         <div className="testimonial-stars">
@@ -32,7 +32,7 @@ export default class AboutUsVoiceOfClient extends Component {
                                 placeholderRating={testimonial.ratingValue}
                                 emptySymbol='fa fa-star fa-star-grey'
                                 placeholderSymbol='fa fa-star fa-star-yellow'
-                                readonly='true'
+                                readonly={true}
                             />
                         </div>
                     </div>
@@ -45,7 +45,7 @@ export default class AboutUsVoiceOfClient extends Component {
                         {
                             testimonial.images.length ? (
                                 testimonial.images.map((image, index) => {
-                                    return  <Carousel.Item>
+                                    return  <Carousel.Item key={index}>
                                                 <img alt="client-photo" src={getImageCDN(image, 640, 0, 'https')} />
                                             </Carousel.Item>
                                 })
